@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Students Details</title>
+    <style>
+        body{
+            text-align: center;
+            padding: 50px;
+        }
+        td{
+            background-color: aliceblue;
+        }
+    </style>
+    <script type="text/javascript" src="/HTML/index.js"></script>
+</head>
+<body>
+    <h2>Enrolled Students</h2>
+    <table align="center" border="1" style="background-color: black;">
+        <tr align="center" style="background-color: lightblue;">
+            <th width="100">Name</th>
+            <th width="200">Email Id</th>
+            <th width="200">Course Name</th>
+        </tr>
+        <tbody align="center" id="enrolledTable"></tbody>
+    </table>
+
+    <script type="text/javascript">
+        window.onload = function(){
+            showStudents();
+        };
+    </script>
+</body>
+</html>
